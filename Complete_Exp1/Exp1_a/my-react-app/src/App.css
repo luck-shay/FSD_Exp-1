@@ -1,0 +1,35 @@
+body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:black;
+  font-family:Arial,sans-serif;
+}
+
+/* OUTER WHITE BOX */
+.outer-box{
+  border:1px solid white;
+  padding: 250px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+/* INNER BOXES */
+.inner-box{
+  width:120px;
+  height:60px;
+  background:white;
+  color:black;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:32px;
+}
+
+.clickable{
+  cursor:pointer;
+  user-select:none;
+}

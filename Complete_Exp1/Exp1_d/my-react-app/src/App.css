@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Heading clearly visible */
+h1 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 320px;
+}
+
+/* Inputs – clean & readable */
+input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Button – solid contrast */
+button {
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+}
+
+/* Submitted data box */
+.output {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 15px;
+  width: 320px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.output h3 {
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.output p {
+  color: #333;
+}
